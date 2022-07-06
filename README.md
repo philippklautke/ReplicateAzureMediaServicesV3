@@ -36,7 +36,7 @@ To run this application you need to:
 
 These are the steps to activate quick replication with the help of AzCopy
 <ol>
-  <li>Install azcopy via chocolatey: See [azcopy10](https://community.chocolatey.org/packages/azcopy10)</li>
+  <li>Install azcopy via chocolatey: See https://community.chocolatey.org/packages/azcopy10</li>
   <li>Switch the "CopyUsingAzCopy"-Flag in <b><i>appsettings.json</b></i> to true.</li>
   <li>After replication you only need to adjust the first part of the streaming urls to your new AMS Account</li>
 </ol>
